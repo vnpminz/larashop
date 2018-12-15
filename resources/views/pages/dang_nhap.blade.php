@@ -43,12 +43,12 @@
                     <div class="form-block">
                         <a href="{{route('signup')}}" class="btn btn-primary">Đăng kí</a>
                     </div>
-                    <div class="form-block">
+                    {{-- <div class="form-block">
                         <button type="submit" class="btn btn-primary">Login via Facebook</button>
                     </div>
                     <div class="form-block">
-                        <button type="submit" class="btn btn-primary">Login via Google</button>
-                    </div>
+                        <button type="submit" class="btn btn-primary">Login via Googles</button>
+                    </div> --}}
                 </div>
                 <div class="col-sm-3"></div>
             </div>

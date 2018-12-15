@@ -13,11 +13,11 @@
 
 // Front-end Route ..............
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('index',['as'=>'trang-chu','uses'=>'PageController@getIndex']);
+Route::get('/',['as'=>'trang-chu','uses'=>'PageController@getIndex']);
 
 Route::get('loai-san-pham/{id_cate}',['as'=>'loaisanpham','uses'=>'PageController@getLoaiSp']);
 

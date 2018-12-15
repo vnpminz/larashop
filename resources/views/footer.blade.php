@@ -21,7 +21,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            {{-- <div class="col-sm-3">
                 <div class="widget">
                     <h4 class="widget-title">Đăng ký nhận email</h4>
                     <form action="#" method="post">
@@ -30,7 +30,7 @@
                         <button class="pull-right" type="submit">Đăng kí <i class="fa fa-chevron-right"></i></button>
                     </form>
                 </div>
-            </div>
+            </div> --}}
         </div> <!-- .row -->
     </div> <!-- .container -->
 </div> <!-- #footer -->

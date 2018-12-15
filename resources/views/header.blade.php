@@ -43,7 +43,7 @@
                         @if(Session::has('cart'))
                         @foreach($product_cart as $product)
                             <div class="cart-item" id="cart-item{{$product['item']['id']}}">
-                            <a  id="cart-item-delete" class="23 pull-right" value="{{$product['item']['id']}}" soluong="{{$product['qty']}}"><i class="fa fa-trash-o "></i></a>
+                            <a class="cart-item-delete1 pull-right" value="{{$product['item']['id']}}" soluong="{{$product['qty']}}"><i class="fa fa-trash-o "></i></a>
                                 <div class="media" >
                                     <a class="pull-left" href="#"><img src="upload/product_image/{{$product['item']['image']}}" alt=""></a>
                                     <div class="media-body">
@@ -105,7 +105,7 @@
 <script src="front_asset/assets/dest/js/jquery.js"></script>
 <script>
     $(document).ready(function($){
-        $('.23').click(function(){
+        $('.cart-item-delete1').click(function(){
             var id = $(this).attr('value');
             var route = "{{route('xoagiohang',':id_sp')}}";
             route = route.replace(':id_sp',id);
@@ -128,7 +128,7 @@
                 error:function(data){
                     $(this).hide(data);
                 }
-            })
-        })
-    })
+            });
+        });
+    });
 </script>
