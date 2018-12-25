@@ -12,6 +12,8 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         $data = [
+            'name'=>'Tuan Bui',
+            'status'=>1,
             'email' => 'abcd8@gmail.com',
             'password'=> bcrypt('123456'),
             'permission'=> 1
